@@ -239,6 +239,8 @@ module.exports = function(grunt) {
       root: 'build',
       apiVersion: '29.0',
       serverurl: 'https://login.salesforce.com',
+      pollWaitMillis: 10000,
+      maxPoll: 20,
       retrieveTarget: false,
       unzip: true,
       useEnv: false
